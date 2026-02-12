@@ -6,7 +6,7 @@ bool myFlad = false;
 
 void setup() {
   Serial.begin(115200);
-  delay(2000);                 // gives Serial a moment to come up
+  delay(1000);                 // gives Serial a moment to come up
   Serial.println("Hello World");
 
   // put your setup code here, to run once: 
